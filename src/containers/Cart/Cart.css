@@ -1,0 +1,59 @@
+.BuyOrder {
+    display: inline-block;
+    background-color: rgb(238, 227, 165);
+    border: 1px solid #966909;
+    box-shadow: 2px 2px 2px #966909;
+    height: 100%;
+    font-size: 25px;
+    width: 94%;
+    padding: 20px;
+    margin: 10px
+}
+
+.OrderButton {
+    background-color: rgb(241, 22, 22);
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #966909;
+    color: white;
+    font-family: inherit;
+    font-size: 25px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 2px #966909;
+    height: 100%;
+    float: right;
+}
+
+.OrderButton:hover, .OrderButton:active {
+    background-color: rgb(228, 124, 27);
+    border: 1px solid #966909;
+    color: white;
+}
+
+.OrderButton:disabled {
+    background-color: #C7C6C6;
+    cursor: not-allowed;
+    border: 1px solid #ccc;
+    color: #888888;
+}
+
+.OrderButton:not(:disabled) {
+    animation: enable 0.3s linear;
+}
+
+@keyframes enable {
+    0% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.header {
+    background-color: palegoldenrod;
+    padding: 10px;
+}

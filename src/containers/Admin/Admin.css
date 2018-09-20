@@ -1,0 +1,38 @@
+.charts {
+    display: flex;
+    flex-direction: row;
+}
+
+.chart {
+    width: 33%;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 10px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.AdminHeader {
+    background-color: rgb(253, 169, 130);
+    padding: 10px;
+}
+
+.header {
+    background-color: rgb(115, 188, 247);
+    padding: 10px;
+}
+
+.OrderTable {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.header4 {
+    background-color: rgb(190, 245, 228);
+    padding: 10px;
+    margin: 5px;
+}

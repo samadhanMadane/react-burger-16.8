@@ -1,0 +1,7 @@
+.Chart {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    width: 33.24%;
+    height: 200px;
+}

@@ -1,0 +1,30 @@
+.Order {
+    width: 48.5%;
+    border: 1px solid rgb(238, 238, 238);
+    box-shadow: 0 2px 3px rgb(204, 204, 204);
+    padding: 15px;
+    margin: 10px;
+    box-sizing: border-box;
+    float: left;
+    background: linear-gradient( lightblue, rgb(203, 236, 238))
+}
+
+.selectInput {
+    outline:  none;
+    border: 1px solid rgb(219, 211, 211);
+    background-color: white;
+    font: inherit;
+    padding: 5px;
+    display: block;
+    box-sizing: border-box;
+    width: 20%;
+    height: 35px;
+    margin: 0px 5px;
+    font-size: 15px;
+}
+
+.status {
+    display: flex;
+    flex-direction: row;
+}
+

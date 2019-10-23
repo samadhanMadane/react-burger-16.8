@@ -15,7 +15,7 @@ import authReducer from './Store/reducers/auth';
 import cartReducer from './Store/reducers/cart';
 import { watchAuth } from './Store/sagas/index';
 
-const composeEnhancers = process.env.NODE_ENV === "development" ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ : null || compose;
+const composeEnhancers = (process.env.NODE_ENV === "development" ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ : null) || compose;
 
 const rootReducer = combineReducers({
     burgerBuilder: burgerBuilderReducer,
